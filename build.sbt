@@ -10,3 +10,5 @@ lazy val root = (project in file("."))
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.18" % Test
 )
+
+//addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "1.10.1")
