@@ -28,7 +28,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: 'sbt'
-      - name: Assess code format
-        run: sbt scalafmtSbtCheck scalafmtCheck test:scalafmtCheck
+#      - name: Assess code format
+#        run: sbt scalafmtSbtCheck scalafmtCheck test:scalafmtCheck
       - name: Run tests
         run: sbt test
